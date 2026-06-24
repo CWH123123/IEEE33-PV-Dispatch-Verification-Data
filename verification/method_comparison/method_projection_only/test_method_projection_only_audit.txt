@@ -1,0 +1,38 @@
+Projection-only final test audit
+================================
+Method definition: u_t^{SP} = Pi_{Omega_t}(0).
+No Actor, no DDPG, no TD3, no behavior cloning, no validation selection.
+The method directly projects a zero physical reference action onto the voltage-feasible action set.
+No test-set information is used for training or model selection.
+No reward, environment, dataset, or projection parameter is modified based on test results.
+
+Data dir: [local path removed]
+Output dir: [local path removed]
+Voltage limits: [0.950000000000, 1.050000000000]
+Projection margin epsV: 0.005000000000
+Pcur_max_ratio: 0.300000000000
+PV buses: [6 14 18 25 30 33]
+Test raw days: [14 67 75 62 4 10 100 26 66 96 11 30 47 18 82]
+
+SuccessDays: 15 / 15
+RewardMean: -5.112445484969
+RewardStd: 3.248527171740
+GlobalVmin: 0.950948880812
+GlobalVmax: 1.044999259376
+Total_N_vio_node_step: 0
+Total_N_vio_step: 0
+MaxVoltageViolation: 0.000000000000e+00
+Total_Ecur_kWh: 5645.234800092406
+Total_Qabs_kVArh: 93231.229201280526
+TotalProjectionFallbackCount: 0
+TotalProjectionSolverFallbackCount: 0
+TotalProjectionClippingCount: 0
+ProjectionNormMean_physical: 1.207366312856e+02
+ProjectionNormMax_physical: 1.053581133378e+03
+ProjectionCostMean: 3.522346789895e-02
+ProjectionCostMax: 6.582919638948e-01
+MaxSlack_raw: 2.735518537314e-13
+SumSlack_raw: 7.713408328418e-11
+PassVoltage: 1
+PassProjection: 1
+PassAll: 1

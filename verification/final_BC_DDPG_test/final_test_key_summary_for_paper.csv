@@ -1,0 +1,2 @@
+Agent,SuccessDays,TotalDays,GlobalVmin,GlobalVmax,Total_N_vio,MaxVoltageViolation,Total_Ecur_kWh,Total_Qabs_kVArh,ProjectionCostMean,TotalProjectionFallbackCount,MaxSlack,PassAll
+D_gamma095_seed2028_ep0200,15,15,0.950989613902768,1.04456025471096,0,0,5526.87926374936,157629.165456145,0.00964161375247356,0,6.75569594930005e-13,1

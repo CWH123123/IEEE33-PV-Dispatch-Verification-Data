@@ -1,0 +1,40 @@
+TD3_fast fixed-protocol final test audit
+========================================
+This script directly evaluates the fixed TD3_fast final agent.
+No validation selection is performed.
+No checkpoint is selected using the test set.
+No reward, environment, or projection parameter is modified.
+
+Method: TD3_fast
+Data dir: [local path removed]
+TD3 root: [local path removed]
+Run dir: [local path removed]
+Agent file: [local path removed]
+Config file: [local path removed]
+
+RunName: TD3_fast_seed2027
+ParamSet: TD3_fast_seed2027
+Seed: 2027
+TrainingEpisodes: 100
+
+SuccessDays: 15 / 15
+RewardMean: -16.999377618189
+RewardStd: 5.837551012036
+RewardMin: -27.505296582097
+RewardMax: -10.179813898936
+GlobalVmin: 0.950838034073
+GlobalVmax: 1.044976856477
+Total_N_vio: 0
+MaxVoltageViolation: 0.000000000000e+00
+Total_Ecur_kWh: 6574.756433288984
+Total_Qabs_kVArh: 186630.092844180937
+TotalProjectionFallbackCount: 0
+ProjectionNormMean_physical: 2.800518459502e+02
+ProjectionNormMax_physical: 1.311537469386e+03
+ProjectionCostMean: 1.009185257087e-01
+ProjectionCostMax: 5.445734226933e-01
+MaxSlack_raw: 3.948291150887e-13
+SumSlack_raw: 1.564356443961e-10
+PassVoltage: 1
+PassProjection: 1
+PassAll: 1

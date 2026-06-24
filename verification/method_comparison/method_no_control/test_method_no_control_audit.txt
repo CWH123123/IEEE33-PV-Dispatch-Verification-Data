@@ -1,0 +1,32 @@
+No-control final test audit
+===========================
+Method definition: Pcur = 0 and QPV = 0 for all PV inverters and all time steps.
+No Actor, no DDPG, no TD3, no behavior cloning, no safety projection.
+The method only runs AC power-flow calculation to quantify the original voltage risk of the test set.
+No validation or test-set information is used for model selection.
+No reward, environment, dataset, or projection parameter is modified based on test results.
+
+Data dir: [local path removed]
+Output dir: [local path removed]
+Voltage limits: [0.950000000000, 1.050000000000]
+PV buses: [6 14 18 25 30 33]
+Test raw days: [14 67 75 62 4 10 100 26 66 96 11 30 47 18 82]
+
+SuccessDays: 15 / 15
+RewardMean: -114.037704628476
+RewardStd: 123.796438454120
+GlobalVmin: 0.903022236297
+GlobalVmax: 1.097335499112
+Total_N_vio_node_step: 4274
+Total_N_vio_step: 338
+MaxVoltageViolation: 4.733549911187e-02
+Total_Ecur_kWh: 0.000000000000
+Total_Qabs_kVArh: 0.000000000000
+TotalProjectionFallbackCount: 0
+ProjectionCostMean: NaN
+ProjectionCostMax: NaN
+MaxSlack_raw: 0.000000000000e+00
+SumSlack_raw: 0.000000000000e+00
+PassVoltage: 0
+PassProjection: 1
+PassAll: 0

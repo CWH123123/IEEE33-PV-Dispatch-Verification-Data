@@ -1,0 +1,16 @@
+Agent,Method,ParamSet,RunName,Seed,TrainingEpisodes,TestIndex,RawDay,ScenarioType,SimOK,StepCount,RewardTotal_byStepSum,RewardMean,Vmin,Vmax,N_vio_node_step,N_vio_step,MaxVoltageViolation,Ecur_sum_raw,Ecur_kWh,Qabs_sum_raw,Qabs_kVArh,ProjectionFallbackCount,ProjectionSolverFallbackCount,ProjectionClippingCount,ProjectionNormMean_physical,ProjectionNormMax_physical,ProjectionCostMean,ProjectionCostMax,MaxSlack_raw,SumSlack_raw
+No_control_zero_action,No_control,No_control,No_control,,,1,14,low_voltage,1,96,-1.70187862263088,-0.0177279023190716,0.949762869765308,1.01852199689563,2,2,0.0002371302346915,0,0,0,0,0,0,0,,,,,0,0
+No_control_zero_action,No_control,No_control,No_control,,,2,67,high_voltage,1,96,-95.9193479764115,-0.999159874754287,0.965634572027554,1.08795748182286,276,23,0.0379574818228647,0,0,0,0,0,0,0,,,,,0,0
+No_control_zero_action,No_control,No_control,No_control,,,3,75,mixed,1,96,-228.676469194789,-2.38204655411239,0.917352982602275,1.09142480040417,583,40,0.041424800404172,0,0,0,0,0,0,0,,,,,0,0
+No_control_zero_action,No_control,No_control,No_control,,,4,62,low_voltage,1,96,-143.772549359486,-1.49763072249464,0.914202055072046,0.998960494583493,390,26,0.0357979449279539,0,0,0,0,0,0,0,,,,,0,0
+No_control_zero_action,No_control,No_control,No_control,,,5,4,normal,1,96,-1.38635159678375,-0.0144411624664974,0.956417466475571,1.02103963057944,0,0,0.0,0,0,0,0,0,0,0,,,,,0,0
+No_control_zero_action,No_control,No_control,No_control,,,6,10,mixed,1,96,-416.373125973998,-4.33722006222915,0.903022236296685,1.09552450121759,673,45,0.0469777637033149,0,0,0,0,0,0,0,,,,,0,0
+No_control_zero_action,No_control,No_control,No_control,,,7,100,mixed,1,96,-155.480126824582,-1.61958465442273,0.913094622714786,1.06887664465337,450,42,0.0369053772852139,0,0,0,0,0,0,0,,,,,0,0
+No_control_zero_action,No_control,No_control,No_control,,,8,26,normal,1,96,-1.41389713966432,-0.0147280952048366,0.955658412683483,1.02047465115605,0,0,0.0,0,0,0,0,0,0,0,,,,,0,0
+No_control_zero_action,No_control,No_control,No_control,,,9,66,normal,1,96,-1.23212163095812,-0.0128346003224804,0.959836559752735,1.02147890416437,0,0,0.0,0,0,0,0,0,0,0,,,,,0,0
+No_control_zero_action,No_control,No_control,No_control,,,10,96,mixed,1,96,-217.846021798255,-2.26922939373182,0.918679150121585,1.09733549911187,555,40,0.0473354991118655,0,0,0,0,0,0,0,,,,,0,0
+No_control_zero_action,No_control,No_control,No_control,,,11,11,high_voltage,1,96,-42.1199673371038,-0.438749659761498,0.958084154706504,1.08194732204436,191,19,0.0319473220443618,0,0,0,0,0,0,0,,,,,0,0
+No_control_zero_action,No_control,No_control,No_control,,,12,30,low_voltage,1,96,-111.960046766617,-1.16625048715226,0.917010092262257,0.999106737612135,358,25,0.0329899077377427,0,0,0,0,0,0,0,,,,,0,0
+No_control_zero_action,No_control,No_control,No_control,,,13,47,low_voltage,1,96,-259.975709102677,-2.70808030315289,0.904421421851932,0.999112360509275,529,39,0.0455785781480679,0,0,0,0,0,0,0,,,,,0,0
+No_control_zero_action,No_control,No_control,No_control,,,14,18,high_voltage,1,96,-12.7834146962896,-0.133160569753017,0.964989109955851,1.06947417792796,125,19,0.0194741779279641,0,0,0,0,0,0,0,,,,,0,0
+No_control_zero_action,No_control,No_control,No_control,,,15,82,high_voltage,1,96,-19.9245414068879,-0.207547306321749,0.960826887550538,1.07382560589355,142,18,0.0238256058935489,0,0,0,0,0,0,0,,,,,0,0

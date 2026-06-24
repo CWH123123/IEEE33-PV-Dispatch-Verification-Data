@@ -1,0 +1,5 @@
+ScenarioType,ScenarioName,TestIndex,RawDay
+normal,Normal,9,66
+low_voltage,Low-voltage,13,47
+high_voltage,High-voltage,14,18
+mixed,Mixed,6,10

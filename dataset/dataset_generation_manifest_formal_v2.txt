@@ -1,0 +1,43 @@
+IEEE33 formal_v2 feasible dataset generation manifest
+========================================================
+
+Dataset variant: formal_v2_feasible_controllable_screened_by_projection_expert
+Random seed: 2026
+Candidate attempts: 5000
+Accepted formal days: 100
+Time steps per day: 96
+Time resolution: 15 min
+Voltage constraints: [0.9500, 1.0500] p.u.
+Feasible expert constraints: [0.9500, 1.0500] p.u.
+Feasible max slack tolerance: 1.000e-06
+
+Train/validation/test split
+---------------------------
+train_days (70):
+[83 97 41 61 68 32 22 38 81 34 39 85 52 49 92 35 95 31 78 59 98 76 13 48 73 6 90 43 20 56 57 70 5 44 37 54 91 71 58 87 45 77 50 23 12 65 8 3 27 51 55 84 63 94 19 2 17 25 15 40 93 69 28 21 29 33 16 1 88 80]
+
+val_days (15):
+[42 60 46 36 64 24 74 7 99 79 72 86 89 9 53]
+
+test_days (15):
+[14 67 75 62 4 10 100 26 66 96 11 30 47 18 82]
+
+Split scenario counts:
+train: normal=18, low_voltage=18, high_voltage=17, mixed=17
+validation: normal=4, low_voltage=3, high_voltage=4, mixed=4
+test: normal=3, low_voltage=4, high_voltage=4, mixed=4
+
+Dataset audit
+-------------
+No-control global Vmax: 1.097335 p.u.
+No-control global Vmin: 0.899072 p.u.
+Projection-expert global Vmax: 1.045000 p.u.
+Projection-expert global Vmin: 0.950286 p.u.
+Projection-expert max slack: 5.419412e-09
+Projection-expert total violation count: 0
+
+Notes
+-----
+- This public package does not include local project paths, source code, trained agents, or training scripts.
+- The dataset matrices and CSV audit files are provided for data transparency and numerical-result verification.
+- Old checkpoints trained on earlier dataset versions should not be used with this formal_v2 dataset.

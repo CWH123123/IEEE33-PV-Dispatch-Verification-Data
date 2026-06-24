@@ -1,0 +1,6 @@
+ParamSet,ShortLabel,LegendLabel,Hyperparameters
+A_baseline,A,"A: \alpha_\mu=1\times10^{-6}, \alpha_Q=5\times10^{-5}, \gamma=0.99, \sigma=0.005","Actor LR=1e-6, Critic LR=5e-5, gamma=0.99, noise=0.005"
+B_smallLR,B,"B: \alpha_\mu=5\times10^{-7}, \alpha_Q=2.5\times10^{-5}, \gamma=0.99, \sigma=0.005","Actor LR=5e-7, Critic LR=2.5e-5, gamma=0.99, noise=0.005"
+C_largeLR,C,"C: \alpha_\mu=5\times10^{-6}, \alpha_Q=1\times10^{-4}, \gamma=0.99, \sigma=0.005","Actor LR=5e-6, Critic LR=1e-4, gamma=0.99, noise=0.005"
+D_gamma095,D,"D: \alpha_\mu=1\times10^{-6}, \alpha_Q=5\times10^{-5}, \gamma=0.95, \sigma=0.005","Actor LR=1e-6, Critic LR=5e-5, gamma=0.95, noise=0.005"
+E_largeNoise,E,"E: \alpha_\mu=1\times10^{-6}, \alpha_Q=5\times10^{-5}, \gamma=0.99, \sigma=0.010","Actor LR=1e-6, Critic LR=5e-5, gamma=0.99, noise=0.010"

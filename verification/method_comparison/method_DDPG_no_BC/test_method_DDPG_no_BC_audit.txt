@@ -1,0 +1,40 @@
+Final test audit: DDPG no-BC, formal_v2, no-Cref
+===========================================================
+This script evaluates only the validation-locked no-BC model.
+No checkpoint is selected using the test set.
+No reward, environment, or projection parameter is modified.
+
+Method: DDPG_no_BC
+Data dir: [local path removed]
+Result root: [local path removed]
+Selection dir: [local path removed]
+Best info CSV: [local path removed]
+Checkpoint: [local path removed]
+
+Agent: D_gamma095_noBC_seed2027_ep0300
+ParamSet: D_gamma095_noBC
+RunName: D_gamma095_noBC_seed2027
+Seed: 2027
+CheckpointEpisode: 300
+
+SuccessDays: 15 / 15
+RewardMean: -13.594952006080
+RewardStd: 5.071637671274
+RewardMin: -22.626835348848
+RewardMax: -7.785057180155
+GlobalVmin: 0.950884485882
+GlobalVmax: 1.044926057097
+Total_N_vio: 0
+MaxVoltageViolation: 0.000000000000e+00
+Total_Ecur_kWh: 6329.738173753000
+Total_Qabs_kVArh: 171822.758456237323
+TotalProjectionFallbackCount: 0
+ProjectionNormMean_physical: 2.322954976044e+02
+ProjectionNormMax_physical: 1.091063959960e+03
+ProjectionCostMean: 6.944678444669e-02
+ProjectionCostMax: 4.160322400773e-01
+MaxSlack_raw: 2.210570270294e-12
+SumSlack_raw: 5.433610340919e-11
+PassVoltage: 1
+PassProjection: 1
+PassAll: 1
