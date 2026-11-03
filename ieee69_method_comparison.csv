@@ -1,0 +1,6 @@
+network,method,statistic,replicates,dataset_split,test_days,test_intervals,curtailment_kwh,reactive_regulation_kvarh,voltage_rmse_pu,raw_violation_intervals,raw_violation_bussteps,executed_violation_intervals,executed_violation_bussteps,projection_correction_cost_mean
+ieee69,ddpg,mean,3,test,15,1440,555.731984026629,133285.255527571,0.0132947561583859,88.3333333333333,457.666666666667,0,0,0.0045699338011689
+ieee69,ddpg,sample_sd,3,test,15,1440,25.010951772264,5080.07988191837,0.000147641615607469,33.2014055927356,330.024746546881,0,0,0.00189898294226358
+ieee69,projection_only,single_run,1,test,15,1440,668.159914753042,86501.6892358614,0.0135198173340516,212,1765,0,0,0.0158962589304646
+ieee69,direct_qp,single_run,1,test,15,1440,1108.63041522719,68004.2775658748,0.013673773395824,,,0,0,
+ieee69,no_control,single_run,1,test,15,1440,0,0,,,,212,1765,

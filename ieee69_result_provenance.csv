@@ -1,0 +1,5 @@
+result_id,network,method,aggregation_level,dataset_split,test_days,test_intervals,source_data_category,paper_location,verification_status,consistency_status,notes
+ieee69_dataset_summary,ieee69,not_applicable,dataset_summary,train_validation_test,,,private_dataset_index,experimental_data_description,static_record_check,pass,Counts only; individual day identifiers are withheld.
+ieee69_seed_test_summary,ieee69,ddpg,per_seed_aggregate,test,15,1440,private_saved_test_records,Table 13 and related IEEE69 results,saved_record_recalculation,pass,Numeric verification from saved records; this is not an independent implementation run.
+ieee69_method_comparison,ieee69,multiple,method_aggregate,test,15,1440,private_saved_test_records,Table 13 and related IEEE69 results,saved_record_recalculation,pass,DDPG mean and sample SD use three retained seed-specific summaries.
+ieee69_representative_run,ieee69,multiple,representative_or_single_baseline,test,15,1440,private_saved_test_records,Table 13,saved_record_recalculation,pass,"The DDPG row is one representative retained seed, not the three-seed mean."

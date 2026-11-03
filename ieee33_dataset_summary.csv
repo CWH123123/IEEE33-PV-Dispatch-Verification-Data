@@ -1,0 +1,11 @@
+network,dataset_scope,dataset_split,scenario_category,scenario_days,dispatch_intervals_per_day,data_status
+ieee33,screened_evaluation_dataset,train,all,70,96,retained
+ieee33,screened_evaluation_dataset,validation,all,15,96,retained
+ieee33,screened_evaluation_dataset,independent_test,all,15,96,retained
+ieee33,screened_evaluation_dataset,all_retained_splits,high_voltage,25,96,retained
+ieee33,screened_evaluation_dataset,all_retained_splits,low_voltage,25,96,retained
+ieee33,screened_evaluation_dataset,all_retained_splits,mixed,25,96,retained
+ieee33,screened_evaluation_dataset,all_retained_splits,normal,25,96,retained
+ieee33,candidate_screening,not_applicable,all,5000,96,generated
+ieee33,candidate_screening,not_applicable,all,3983,96,accepted
+ieee33,candidate_screening,not_applicable,all,1017,96,screened_out

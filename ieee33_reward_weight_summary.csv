@@ -1,0 +1,4 @@
+network,evaluation_scope,dataset_split,configuration,independent_training_seeds,active_curtailment_weight,reactive_regulation_weight,curtailment_kwh_mean,curtailment_kwh_sample_sd,reactive_regulation_kvarh_mean,reactive_regulation_kvarh_sample_sd,raw_violation_intervals_mean,raw_violation_intervals_sample_sd,executed_violation_intervals_mean,executed_violation_intervals_sample_sd
+ieee33,reward_weight_sensitivity,independent_test,R1,3,1,0.225,5539.58239173679,16.0734629055069,127034.714943851,6405.03380002193,123.666666666667,73.111786555475,0,0
+ieee33,reward_weight_sensitivity,independent_test,R2,3,2,0.2,5554.99264636267,28.4431658356674,148090.259601078,15991.9568707315,82.6666666666667,28.095076674274,0,0
+ieee33,reward_weight_sensitivity,independent_test,R3,3,3,0.175,5513.95174192529,25.162235635723,155228.701484345,16046.673300801,116.666666666667,15.9478316185409,0,0

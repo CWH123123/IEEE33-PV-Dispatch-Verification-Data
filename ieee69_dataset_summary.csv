@@ -1,0 +1,2 @@
+network,selected_days,training_days,validation_days,test_days,intervals_per_day,total_test_intervals,test_normal_days,test_low_voltage_days,test_high_voltage_days,test_mixed_days
+ieee69,100,70,15,15,96,1440,3,4,4,4

@@ -1,0 +1,4 @@
+network,method,evaluation_run_id,seed,dataset_split,test_days,test_intervals,curtailment_kwh,reactive_regulation_kvarh,voltage_rmse_pu,raw_violation_intervals,raw_violation_bussteps,executed_violation_intervals,executed_violation_bussteps,projection_correction_cost_mean
+ieee69,ddpg,ddpg_seed_2026,2026,test,15,1440,575.42042793078,136733.680591541,0.0133805558391137,108,790,0,0,0.0057692532650016
+ieee69,ddpg,ddpg_seed_2027,2027,test,15,1440,527.589631267573,135670.603195936,0.0131242755289139,50,130,0,0,0.0023805065287731
+ieee69,ddpg,ddpg_seed_2028,2028,test,15,1440,564.185892881533,127451.482795235,0.01337943710713,107,453,0,0,0.005560041609732
